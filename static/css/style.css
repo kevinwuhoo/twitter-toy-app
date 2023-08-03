@@ -1,0 +1,302 @@
+body {
+  width: 98%;
+  font-family: "Chirp", sans-serif;
+}
+.big-text {
+  font-size: 22px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  gap: 15px;
+  background-color: rgb(236, 239, 241);
+}
+.search > input {
+  background-color: rgb(236, 239, 241);
+}
+.chirp-font {
+  font-family: "Chirp", sans-serif;
+  /* font-family: 'ChirpExtended', sans-serif; */
+}
+.dark {
+  font-family: "Chirp", sans-serif;
+  font-size: 21px;
+}
+.input:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+.search:focus-within {
+  background-color: white;
+  box-shadow: 0px 0px 2px rgb(33, 107, 245);
+}
+.rounded-o {
+  border-radius: 15px;
+}
+.new-to-twitter > div > p {
+  font-size: smaller;
+}
+.new-to-twitter {
+  width: 26%;
+  margin-left: 28px;
+}
+
+.side-log {
+  width: 93.5%;
+}
+.font-normal {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+.side-log-foot {
+  font-size: small;
+}
+.copyright {
+  font-size: 25px;
+}
+.dont-miss {
+  line-height: 1px;
+}
+
+.blue {
+  background-color: #1da1f2;
+}
+
+.modal-width {
+  min-width: 600px;
+}
+
+.modal-login {
+  width: 65%;
+  /* margin-left: ; */
+}
+.cust-font {
+  font-size: 15px;
+}
+.dark-btn {
+  background-color: rgb(19, 18, 18);
+  color: white;
+}
+.line-height {
+  line-height: 15px;
+}
+.login-btn {
+  width: 100%;
+}
+
+.width {
+  max-width: 72%;
+}
+.ml-4-5 {
+  margin-left: 3.5%;
+}
+
+.home {
+  font-size: 20px;
+}
+.content-section {
+  display: none;
+}
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.cover_image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.profile_image {
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  border: 4px white solid;
+}
+
+.line-space {
+  line-height: 1%;
+}
+svg {
+  height: 20px;
+  color: gray;
+}
+/* #section{
+  width: 100%;
+} */
+#section,
+html,
+body {
+  height: 100%;
+}
+
+.independent-scroll {
+  height: 100%;
+  overflow: scroll;
+  margin-bottom: 0px;
+}
+
+.hidden {
+  display: none;
+}
+.content-box{
+  max-height: 60px;
+  /* font-size: larger; */
+}
+#id_content{
+  max-height: 50px;
+  font-size: larger;
+  border: none;
+  resize: none;
+}
+#id_content:focus{
+  outline: none !important;
+  box-shadow: none;
+}
+.seen_by {
+  border: 1px solid #1da1f2;
+  color:#1da1f2;
+  max-width: 110px;
+  background-color: white;
+}
+.seen_by:hover{
+  background-color: rgba(29, 155, 240, 0.1);
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.file-label {
+display: block;
+/* text-align: center; */
+/* margin: 20px auto; */
+padding: 0;
+border: none; /* Remove border */
+cursor: pointer;
+font-size: 0;
+width: 0px; /* Reduce width */
+height: 0; /* Reduce height */
+
+}
+
+.file-label i {
+  /* height: 20px; */
+font-size: 20px; /* Reduce icon size */
+color:#1da1f2
+}
+
+
+.file-input {
+  display: none;
+}
+
+#preview-container,
+#modal-preview-container,
+.image-container {
+  display: grid;
+  grid-gap: 10px;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); /* Updated property */
+}
+
+.preview-image-container,
+.tweet-image-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 55%; /* You can adjust this value as needed for the image aspect ratio */
+}
+
+.preview-image,
+.tweet-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  /* background-color: rgba(255, 255, 255, 0.7); */
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: white;
+  background-color: gray;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+}
+
+.tweet-container:hover{
+  cursor: pointer;
+}
+
+.transparent-bg {
+  background-color: rgba(245, 245, 245, 0.9) !important;
+}
+
+.trending{
+  border-radius: 20px;
+}
+.left-pane{
+  width: 30%;
+  padding: 2px 30px 0px 10px;
+
+}
+.trending_item{
+  cursor: pointer;
+}
+.trending_item:hover{
+  background-color:rgb(240, 240, 240) ;
+}
+
+.confirmation-prompt {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.confirmation-message {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.confirmation-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation-buttons button {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.confirmation-buttons button:hover {
+  background-color: #eaeaea;
+}

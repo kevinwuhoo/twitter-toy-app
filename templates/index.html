@@ -1,0 +1,7 @@
+{% if user.is_authenticated %}
+    {% include "authenticated.html" %}
+{% else %}
+    {% include "non-authenticated.html" %}
+    {% include "login-modal.html" %}
+    {% include "signup-modal.html" %}
+{% endif %}
