@@ -26,4 +26,4 @@ The application will create a superuser automatically with the following credent
   Password: hunter2
 ```
 
-You can use these credentials to log in to the admin panel at http://localhost:8000/admin.
+You can use these credentials to log in to the admin panel at http://localhost:8000/admin.  This will sign you into the twitter clone as well.

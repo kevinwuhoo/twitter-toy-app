@@ -17,6 +17,7 @@ def trendingView(request):
     stop_words = set(stopwords.words('english'))
     tweets = Tweet.objects.all()
     words = []
+    trending_words = []
     for tweet in tweets:
         # Extract words from post content and filter out stop words
         words.extend([
