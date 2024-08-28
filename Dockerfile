@@ -14,3 +14,5 @@ RUN python -m nltk.downloader punkt
 COPY . /app/
 
 RUN python manage.py collectstatic --noinput
+# RUN chmod +x entrypoint.sh
+CMD bash ./entrypoint.sh
